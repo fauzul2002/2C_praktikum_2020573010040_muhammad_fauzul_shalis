@@ -1,17 +1,19 @@
-<html>
-    <body>
-        <?php
-            $jumlahbarang = 3;
-            $harga = 100; echo $pepmbayaran = $jumlahbarang + $harga;
-            echo "<br>";
-            echo $pembayaran = $jumlahbarang - $harga;
-            echo "<br>";
-            echo $pembayaran = $jumlahbarang * $harga;
-            echo "<br>";
-            echo $pembayaran = $jumlahbarang / $harga;
-            echo "<br>";
-            echo $pembayaran = $jumlahbarang % $harga;
-            echo "<br>";
-        ?>
-    </body>
-</html>
+<?
+    $a=10;
+    $b=3;
+    echo "\$a = $a <br>";
+    echo "\$b = $b <br>";
+    echo '$a + $b=';
+    print $a+$b;
+    echo "<br>";
+    echo '$a - $b =';
+    print $a-$b;
+    echo "<br>";
+    echo '$a * $b';
+    print $a*$b;
+    echo "<br>";
+    echo '$a * $b';
+    print $a*$b;
+    echo "<br>";
+    print $a*$b;
+?>
