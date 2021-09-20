@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-<?php echo "hello world"; ?>
-    
+<?php 
+    $nama = "muhammad fauzul shalis";
+    echo "$nama berkata\'katakan namamu!'";
+    ?>
 </body>
 </html>
