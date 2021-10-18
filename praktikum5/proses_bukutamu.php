@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh form dengan post</title>
+    <title>Buku tamu</title>
 </head>
 <body>
-    <h1>Buku Tamu</h1>
-    komentar sangat di butuhkan dalam situs kami, untuk meningkatkan kualitas situs kami.
+    <?php
+    $nama = $_POST ["nama"];
+    $email = $_POST ["email"];
+    $komentar = $_POST ["komentar"];
+    ?>
+    <h1>Data Buku Tamu</h1>
     <hr>
-    <form action="proses_bukutamu.php" method="post">
-        <pre>
-            Nama anda            : <input type="text" name="nama" size="25" maxlength="50">
-            Email address        : <input type="email" name="email" size="40" maxlength="50">
-            Komentar             : <textarea name="komentar" id="" cols="40" rows="5"></textarea>
-            <input type="submit" value="kirim">
-            <input type="reset" value="ulangi">
-        </pre>
-    </form>
+    Nama anda       : <?php echo $nama ?>
+    <br>
+    Email address   : <?php echo $email ?>
+    <br>
+    komentar        : <textarea name="komentar" id="" cols="40" rows="5"><?php echo $komentar ?></textarea>
 </body>
 </html>
