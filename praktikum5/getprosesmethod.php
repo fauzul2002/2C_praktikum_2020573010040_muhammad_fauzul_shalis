@@ -7,6 +7,7 @@
     <title>Form method POST</title>
 </head>
 <body>
+    <h2>test</h2>
     <h1>Input</h1>
     <form action="2bmet_postproses.php" method="post">
     alamat : <input type="text" name="alamat" size="50">
