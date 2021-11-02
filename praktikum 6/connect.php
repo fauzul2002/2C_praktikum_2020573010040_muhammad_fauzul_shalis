@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    $koneksi = mysqli_connect ("localhost","root","","udemy");
+    $koneksi = mysqli_connect ("localhost","root","","db_saya");
     if ($koneksi){
         echo "koneksi berhasil";
     }

@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    $conn = mysqli_connect("localhost","root","","praktikum6") or die ("koneksi gagal");
+    $conn = mysqli_connect("localhost","root","","db_saya") or die ("koneksi gagal");
     $hasil = mysqli_query($conn, "select *from liga");
     while ($row = mysqli_fetch_array($hasil)){
         echo "liga&emsp;".$row ["negara"]."&emsp;"; //array asosiatif
