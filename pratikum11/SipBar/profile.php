@@ -80,13 +80,13 @@ require "proses/koneksi.php";
             <div class="mb-3">
               <label class="form-label">Tempat Lahir</label>
               <input type="text" class="form-control"
-              value="<?php echo $data1['tempat_lahir'];?>"
+              value="<?php echo $data1['tempat_lhr'];?>"
               disabled>
             </div>
             <div class="mb-3">
               <label class="form-label">Tanggal Lahir</label>
               <input type="text" class="form-control"
-              value="<?php echo $data1['tanggal_lahir'];?>"
+              value="<?php echo $data1['tgl_lahir'];?>"
               disabled>
             </div>
             <div class="mb-3">
