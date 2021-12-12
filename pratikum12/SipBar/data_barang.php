@@ -34,10 +34,10 @@ require "proses/koneksi.php";
           <!--Akhir Sidebar-->
           <!--Content-->
           <div class="col-9">
-          <h2>Data Barang</h2>
+          <h2>data barang</h2>
           <div class="card">
             <div class="card-header">
-              Data Barang
+              data barang
             </div>
               <div class=" card-body">
               <button class="position-relative btn btn-success" data-bs-toggle="modal" data-bs-target="#tambahdatabarang">Tambah Data</button>
